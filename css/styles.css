@@ -322,12 +322,16 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 24px;
     margin-top: 8px;
     fill: #f4f4fd;
+    gap: 24px;
 }
 
-.three-icon-li {
+.link-icon {
+}
+
+
+.three-icon-li{
     display: flex;
     width: 40px;
     height: 40px;
