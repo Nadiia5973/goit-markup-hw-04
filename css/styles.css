@@ -488,26 +488,24 @@ img {
 /* #endregion */
 
 /* #region Styles Section Footer */
-.footer{
-    padding: 0;
-}
-.footer-all {
+.footer {
     display: flex;
-    background-color: #2e2f42;
-    width: 100%;
     padding: 100px 0;
+    background-color: #2e2f42;
+    padding-left: 156px;
+}
+
+.footer-all {
     display: flex;
     align-items: baseline;
 }
 
 .footer-container {
-    display: block;
     margin-right: 120px;
 }
 
 .logo-footer {
     display: inline-block;
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -532,14 +530,14 @@ img {
     max-width: 264px;
 }
 
-.social-footer {
+/*.social-footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-}
+}*/
 .svg-footer {
-    fill:#f4f4fd
+    fill: #f4f4fd
 }
 
 .footer-social-media {
