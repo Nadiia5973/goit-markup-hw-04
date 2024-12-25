@@ -488,7 +488,7 @@ img {
 
 /* #region Styles Section Footer */
 
-.footer {
+.footer-all {
     display: flex;
     background-color: #2e2f42;
     width: 100%;
